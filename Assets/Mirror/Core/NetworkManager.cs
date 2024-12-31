@@ -243,6 +243,8 @@ namespace Mirror
                             break;
                     }
             }
+
+            //StartServer(); // FIX ME
         }
 
         // make sure to call base.Update() when overwriting

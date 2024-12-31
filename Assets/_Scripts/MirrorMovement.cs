@@ -21,7 +21,8 @@ public class MirrorMovement : NetworkBehaviour
         {
             _sceneScript.TestInt++;
             _sceneScript.StatusText = $"{_playerNick.PlayerNickName} says hello {Random.Range(10, 99)}";
-            //_sceneScript.TextChangedClientRpc(_sceneScript.StatusText);
+            _sceneScript.TextChangedClientRpc(_sceneScript.StatusText);
+            Debug.Log("Server");
         }
     }
 

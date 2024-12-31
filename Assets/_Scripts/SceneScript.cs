@@ -24,6 +24,7 @@ public class SceneScript : NetworkBehaviour
     {
         StatusText = statusText;
         CanvasStatusText.text = StatusText;
+        Debug.Log("Client");
     }
 
     public void ButtonSendMessage()
